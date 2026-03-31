@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Live Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+    <div class="sidebar">
+        <h2>Explorer</h2>
+        <p>room.js</p>
+    </div>
+
+    <div class="main">
+        <div class="topbar">
+            <span class="filename">room.js</span>
+            <span id="status">● Not connected</span>
+        </div>
+
+        <div class="controls">
+            <input id="roomId" placeholder="Enter Room ID..." />
+            <input id="password" type="password" placeholder="Enter Password..." />
+            <button id="joinBtn">Join</button>
+        </div>
+
+        <textarea id="editor" placeholder="// Start typing..."></textarea>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
