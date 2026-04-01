@@ -1,4 +1,4 @@
-CodeSync
+CodeSync - 
 A secure real-time collaborative code editor with role-based access control.
 
 Overview
